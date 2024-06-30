@@ -1,6 +1,9 @@
+// pw - JaVujGu4Q4RG53tn
 import "dotenv/config";
 import express from "express";
 import cors from "cors";
+import logger from "./utils/logger";
+import connect from "./utils/database.connection";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -13,5 +16,6 @@ app.get("/", (req, res, next) => {
   next();
 });
 app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+  logger.info(`Server is running on port ${PORT} `);
+  connect();
 });
