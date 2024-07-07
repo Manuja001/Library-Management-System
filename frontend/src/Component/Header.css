@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+FR+Moderne:wght@100..400&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Arvo", sans-serif;
+}
+
+.header {
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+
+  box-shadow: inset;
+}
+
+.heading {
+  color: #0f67b1;
+  font-size: 30px;
+  margin: 10px;
+  padding: 10px;
+  font-size: 40px;
+}
+
+.navbar {
+  list-style: none;
+}
+.navbar li {
+  display: inline;
+  margin: 10px;
+  padding: 10px;
+  font-size: 18px;
+  color: #2f3645;
+}
+.navbar li a {
+  text-decoration: none;
+  color: #2f3645;
+  transition: all 0.3s ease 0s;
+}
+.navbar li a:hover {
+  color: #0f67b1;
+  cursor: pointer;
+}
+.button_login {
+  font-size: 20px;
+  padding: 9px 25px;
+  border: none;
+  border-radius: 50px;
+  background-color: #0f67b1;
+  color: white;
+  margin: 10px;
+  transition: all 0.3s ease 0s;
+}
+.button_login:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.button_search {
+  font-size: 20px;
+  background-color: #2f3645;
+  color: white;
+  margin: 10px;
+  padding: 9px 25px;
+  border: none;
+  border-radius: 50px;
+}
+.button_search:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.search_bar {
+  padding: 10px 20px;
+  margin: 20px;
+  border-radius: 50px;
+  border: none;
+  font-size: 18px;
+}
+.book_image {
+  width: 100px;
+  height: 100px;
+}
