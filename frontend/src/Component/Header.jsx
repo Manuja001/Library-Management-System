@@ -1,6 +1,7 @@
 import React from "react";
 import "./Header.css";
-import Book from "../Component/Images/Book.png";
+import Book from "./Images/Book.png";
+import search from "./Images/Search.png";
 
 function Header() {
   return (
@@ -22,10 +23,11 @@ function Header() {
       </div>
       <div>
         <input className="search_bar" type="text" placeholder="Search" />
+
         <button className="button_search">Search</button>
       </div>
       <div>
-        <button className="button_login">Login</button>
+        <button className="button_login">Sign In</button>
       </div>
     </div>
   );
