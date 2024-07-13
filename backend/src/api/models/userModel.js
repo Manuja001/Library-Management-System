@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 const Schema = mongoose.Schema;
 
 const UserSchema = new mongoose.Schema({
-  userId: {
+  user_id: {
     type: String,
     required: true,
   },
@@ -28,10 +28,6 @@ const UserSchema = new mongoose.Schema({
     required: true,
   },
   phone: {
-    type: String,
-    required: true,
-  },
-  gender: {
     type: String,
     required: true,
   },
