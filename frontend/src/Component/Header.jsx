@@ -1,9 +1,11 @@
 import React from "react";
 import "./Header.css";
-import Book from "./Images/Book.png";
-import search from "./Images/Search.png";
+import Book from "../Images/Book.png";
+import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Header() {
+  const navigate = useNavigate();
   return (
     <div className="header">
       <h1 className="heading">Online Book Store</h1>
@@ -11,10 +13,13 @@ function Header() {
       <div>
         <ul className="navbar">
           <li>
-            <a href="https://www.google.com">Home</a>
+            <Link to={"/"}>Home</Link>
           </li>
           <li>
-            <a href="https://www.google.com"> About us</a>
+            <Link to={"/"}>Shop</Link>
+          </li>
+          <li>
+            <Link to={"https://www.google.com"}> About us</Link>
           </li>
           <li>
             <a href="https://www.google.com"> Contact us</a>
@@ -27,7 +32,9 @@ function Header() {
         <button className="button_search">Search</button>
       </div>
       <div>
-        <button className="button_login">Sign In</button>
+        <button className="button_login" onClick={() => navigate("signin")}>
+          Sign In
+        </button>
       </div>
     </div>
   );

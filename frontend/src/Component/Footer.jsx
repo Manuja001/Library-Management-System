@@ -1,10 +1,10 @@
 import React from "react";
 import "./Footer.css";
-import Facebook from "./Images/Facebook.png";
-import Instagram from "./Images/Instagram.png";
-import Github from "./Images/Github.png";
-import Youtube from "./Images/Youtube.png";
-import LinkedIn from "./Images/LinkedIn.png";
+import Facebook from "../Images/Facebook.png";
+import Instagram from "../Images/Instagram.png";
+import Github from "../Images/Github.png";
+import Youtube from "../Images/Youtube.png";
+import LinkedIn from "../Images/LinkedIn.png";
 
 function Footer() {
   return (
