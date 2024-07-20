@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Header.css";
 import Book from "../Images/Book.png";
 import { useNavigate } from "react-router-dom";
@@ -6,6 +6,8 @@ import { Link } from "react-router-dom";
 
 function Header() {
   const navigate = useNavigate();
+  const [isMenuOpen, setisMenuOpen] = useState(false);
+
   return (
     <div className="header">
       <h1 className="heading">Online Book Store</h1>

@@ -12,7 +12,6 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-
   box-shadow: inset;
 }
 
@@ -37,7 +36,6 @@
 .navbar li a {
   text-decoration: none;
   color: #2f3645;
-  background-color: white;
   padding: 20px 30px;
   transition: all 0.3s ease 0s;
 }

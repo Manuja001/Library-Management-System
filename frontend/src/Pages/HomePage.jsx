@@ -87,10 +87,10 @@ function HomePage() {
           <img src={Developer} alt="Developer-profile" />
           <h3>Manuja Sandeep </h3>
           <p>
-            Manuja Sandeep, a bookstore developer, excels in blending technology
-            with literature, creating user-friendly platforms, enhancing
-            customer experiences, and driving innovation for seamless book
-            discovery and purchasing.
+            Manuja Sandeep, a Full-Stack developer, excels in blending
+            technology with literature, creating user-friendly platforms,
+            enhancing customer experiences, and driving innovation for seamless
+            book discovery and purchasing.
           </p>
         </div>
       </div>

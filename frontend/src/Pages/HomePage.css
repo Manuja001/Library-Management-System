@@ -7,6 +7,8 @@
   min-height: 100vh;
 }
 .bg-home {
+  position: relative;
+  z-index: 2;
   display: flex;
   min-height: 100vh;
   flex-direction: column;
@@ -14,6 +16,14 @@
   padding-bottom: 150px;
   background-image: url("../Images/bg-home.jpg");
   background-size: cover;
+}
+.bg-home ::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
 }
 .contaiter_1 {
   justify-content: center;
@@ -134,7 +144,7 @@ hr {
   padding: 20px;
   margin: 20px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-} 
+}
 .member img {
   width: 500px;
   height: 500px;
@@ -159,20 +169,6 @@ hr {
   width: 80%;
   text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* .team{
   display: flex;
